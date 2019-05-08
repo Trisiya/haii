@@ -1,0 +1,165 @@
+.header{
+  height: 5vh;
+  text-align:center;
+  color: #7F7F7F;
+}
+.container {
+  	Width: 1000px;
+  	Margin: 0px auto;
+}
+#logo {
+	Float: left;
+  height:5vh;
+	Width: 100px
+	Margin: 0;
+	Padding: 5px;
+	Color: #FFFFFF;
+}
+.showcase{
+  height: 100vh;
+  margin-top: 10px;
+  text-align:center;
+  color:#e19e5d;
+  background-size: cover;
+  background-position: center;
+
+}
+a {
+	text-decoration: none;
+}
+.main-header{
+	padding: 0px;
+  text-align: right;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(3,1fr);
+}
+#menu {
+	Float: right;
+	Width: 500px;
+	Height: 90px;
+	Margin: 0 auto;
+	Padding: 0;
+}
+
+#menu ul {
+	Float: right;
+	Margin: 10;
+	Padding: 50px 0px 0px 0px;
+	List-style: none;
+	Line-height: normal;
+}
+
+#menu li {
+	Float: left;
+	Padding: 0px 0px;
+}
+
+#menu a {
+	Display: block;
+	Margin-right: 1px;
+	Padding: 10px 20px 10px 20px;
+	Text-decoration: none;
+	Text-align: center;
+	Text-transform: uppercase;
+	Font-family: ‘Oswald’, sans-serif;
+	Font-size: 14px;
+	Font-weight: 300;
+	Color: Black;
+	Border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	Text-decoration: none;
+	Color: #FFFFFF;
+}
+
+#menu .current_page_item a {
+	Background: #132434;
+	Border-radius: 5px;
+}
+
+/* Page */
+
+#page {
+	Width: 1000px;
+	Margin: 0 auto;
+	Padding: 30px 20px;
+	Background: #FFDEAD;
+}
+
+/* Content */
+
+#content {
+	Float: left;
+	Width: 660px;
+	Padding: 0px 0px 0px 0px;
+}
+}
+.post {
+	Overflow: hidden;
+	Margin-bottom: 40px;
+}
+
+.post .title {
+	Padding: 7px 0px 0px 0px;
+	Letter-spacing: -1px;
+}
+
+.post .title a {
+	Border: none;
+	Text-decoration: none;
+	Color: #222222;
+}
+
+.post .meta {
+	Margin-bottom: 30px;
+	Padding: 10px 0px 0px 0px;
+	Text-align: left;
+	Font-family: ‘Abel’, sans-serif;
+	Font-size: 16px;
+	Font-weight: 300;
+}
+
+.post .meta .date {
+	Float: left;
+}
+
+.post .meta .posted {
+	Float: right;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+	Padding: 0px 0px 40px 0px;
+	Text-align: justify;
+}
+
+.links {
+	Padding-top: 20px;
+	Margin-bottom: 30px;
+
+}
+.footer{
+  height: 200vh;
+  text-align:center;
+  color: black;
+  margin-top: 10px;
+}
+li{
+	padding: 10px;
+	background: ;
+	list-style: none;
+	text-align: center;
+	color: black;
+	font-size: 19px;
+	border: #e19e5d solid 2px;
+	transition: all 0.2s ease-out;
+}
+li:hover{
+	background-color: #e19e5d ;
+	color: green;
+	transition: all 0.2s ease-out;
+}
